@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B6DDD9322521F49006F598B /* SuperheroGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DDD9222521F49006F598B /* SuperheroGenerator.swift */; };
 		4BFFB0052251EEE5003B983D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFB0042251EEE4003B983D /* AppDelegate.swift */; };
 		4BFFB0072251EEE5003B983D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFB0062251EEE5003B983D /* ViewController.swift */; };
 		4BFFB00A2251EEE5003B983D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BFFB0082251EEE5003B983D /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B6DDD9222521F49006F598B /* SuperheroGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroGenerator.swift; sourceTree = "<group>"; };
 		4BFFB0012251EEE4003B983D /* SuperheroGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperheroGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BFFB0042251EEE4003B983D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BFFB0062251EEE5003B983D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				4BFFB0042251EEE4003B983D /* AppDelegate.swift */,
 				4BFFB0062251EEE5003B983D /* ViewController.swift */,
+				4B6DDD9222521F49006F598B /* SuperheroGenerator.swift */,
 				4BFFB0162251F13E003B983D /* ListsOfNames.swift */,
 				4BFFB0082251EEE5003B983D /* Main.storyboard */,
 				4BFFB00B2251EEE6003B983D /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 				4BFFB0072251EEE5003B983D /* ViewController.swift in Sources */,
 				4BFFB0052251EEE5003B983D /* AppDelegate.swift in Sources */,
 				4BFFB0172251F13E003B983D /* ListsOfNames.swift in Sources */,
+				4B6DDD9322521F49006F598B /* SuperheroGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
