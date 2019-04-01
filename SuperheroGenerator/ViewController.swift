@@ -19,11 +19,16 @@ class ViewController: UIViewController {
     @IBOutlet weak var SexSwitcher: UISegmentedControl!
     @IBOutlet weak var HeroNameLabel: UILabel!
     
+    @IBAction func SexSwitched(_ sender: Any) {
+        // Clear name label
+        HeroNameLabel.text = ""
+    }
     
     @IBAction func GenerateRandomName(_ sender: Any) {
         let selectedSexIndex:Int   = SexSwitcher.selectedSegmentIndex
         let randomName:String      = getRandomName(selectedSexIndex)
         
+        // Write name to label
         HeroNameLabel.text = randomName
     }
 }

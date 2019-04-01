@@ -54,6 +54,9 @@
                                                             <segment title="Мужской"/>
                                                             <segment title="Женский"/>
                                                         </segments>
+                                                        <connections>
+                                                            <action selector="SexSwitched:" destination="BYZ-38-t0r" eventType="valueChanged" id="k26-gL-wi6"/>
+                                                        </connections>
                                                     </segmentedControl>
                                                 </subviews>
                                             </stackView>
