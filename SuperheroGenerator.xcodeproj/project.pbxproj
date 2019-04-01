@@ -12,6 +12,7 @@
 		4BFFB00A2251EEE5003B983D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BFFB0082251EEE5003B983D /* Main.storyboard */; };
 		4BFFB00C2251EEE6003B983D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BFFB00B2251EEE6003B983D /* Assets.xcassets */; };
 		4BFFB00F2251EEE6003B983D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BFFB00D2251EEE6003B983D /* LaunchScreen.storyboard */; };
+		4BFFB0172251F13E003B983D /* ListsOfNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFB0162251F13E003B983D /* ListsOfNames.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4BFFB00B2251EEE6003B983D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BFFB00E2251EEE6003B983D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BFFB0102251EEE6003B983D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BFFB0162251F13E003B983D /* ListsOfNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsOfNames.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				4BFFB0042251EEE4003B983D /* AppDelegate.swift */,
 				4BFFB0062251EEE5003B983D /* ViewController.swift */,
+				4BFFB0162251F13E003B983D /* ListsOfNames.swift */,
 				4BFFB0082251EEE5003B983D /* Main.storyboard */,
 				4BFFB00B2251EEE6003B983D /* Assets.xcassets */,
 				4BFFB00D2251EEE6003B983D /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				4BFFB0072251EEE5003B983D /* ViewController.swift in Sources */,
 				4BFFB0052251EEE5003B983D /* AppDelegate.swift in Sources */,
+				4BFFB0172251F13E003B983D /* ListsOfNames.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
